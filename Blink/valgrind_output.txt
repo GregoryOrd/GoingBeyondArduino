@@ -1,0 +1,20 @@
+==8417== Memcheck, a memory error detector
+==8417== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==8417== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==8417== Command: GB
+==8417== Parent PID: 68
+==8417== 
+==8417== 
+==8417== HEAP SUMMARY:
+==8417==     in use at exit: 10,727 bytes in 130 blocks
+==8417==   total heap usage: 402 allocs, 272 frees, 137,183 bytes allocated
+==8417== 
+==8417== LEAK SUMMARY:
+==8417==    definitely lost: 6,403 bytes in 85 blocks
+==8417==    indirectly lost: 1,061 bytes in 19 blocks
+==8417==      possibly lost: 0 bytes in 0 blocks
+==8417==    still reachable: 3,263 bytes in 26 blocks
+==8417==         suppressed: 0 bytes in 0 blocks
+==8417== Rerun with --leak-check=full to see details of leaked memory
+==8417== 
+==8417== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
