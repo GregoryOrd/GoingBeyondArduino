@@ -1,0 +1,3 @@
+#!/bin/bash
+
+scp -r /mnt/c/GoingBeyondArduino/PWMSoftLED pi@192.168.0.121:~/GoingBeyondArduino

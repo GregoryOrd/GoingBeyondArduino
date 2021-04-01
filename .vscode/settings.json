@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "Enabled",
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "globalvariables.h": "c"
+    }
+}

@@ -1,0 +1,14 @@
+See this wikipedia page on Pulse Width Modulation:
+
+https://en.wikipedia.org/wiki/Pulse-width_modulation
+
+The idea is that we can use pulse width modulation to increase and decrease the duty 
+cycle of the signal. That is, the width, of the on portion of the square wave.
+A super simplitic way to think about it is that increasing this duty cycle
+increases the average power. So we can use this to control things such as dimming
+an LED over time by reducing the average power being seen by that LED.
+
+Control through PWM could also be used to control motors, for example where we have 
+a similar, increasing or decreasing power/intensity over time.
+
+We can use PWM as a digital to analog converter.
